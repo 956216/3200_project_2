@@ -1,0 +1,155 @@
+[
+  {
+    "_id": "978-0-06-112008-4",
+    "isbn": "978-0-06-112008-4",
+    "title": "To Kill a Mockingbird",
+    "star_rating": 4.8,
+    "authors": [
+      { "authorId": "auth_001", "name": "Harper Lee", "birth_year": "1926" }
+    ],
+    "genres": [
+      { "genreId": "genre_001", "name": "Literary Fiction", "description": "Character-driven novels exploring the human condition" },
+      { "genreId": "genre_002", "name": "Classics", "description": "Enduring works of lasting literary merit" }
+    ]
+  },
+  {
+    "_id": "978-0-7432-7356-5",
+    "isbn": "978-0-7432-7356-5",
+    "title": "The Great Gatsby",
+    "star_rating": 4.5,
+    "authors": [
+      { "authorId": "auth_002", "name": "F. Scott Fitzgerald", "birth_year": "1896" }
+    ],
+    "genres": [
+      { "genreId": "genre_001", "name": "Literary Fiction", "description": "Character-driven novels exploring the human condition" },
+      { "genreId": "genre_002", "name": "Classics", "description": "Enduring works of lasting literary merit" }
+    ]
+  },
+  {
+    "_id": "978-0-451-52493-5",
+    "isbn": "978-0-451-52493-5",
+    "title": "1984",
+    "star_rating": 4.7,
+    "authors": [
+      { "authorId": "auth_003", "name": "George Orwell", "birth_year": "1903" }
+    ],
+    "genres": [
+      { "genreId": "genre_003", "name": "Dystopian", "description": "Fiction set in oppressive or degraded societies" },
+      { "genreId": "genre_004", "name": "Science Fiction", "description": "Speculative fiction exploring futuristic concepts" }
+    ]
+  },
+  {
+    "_id": "978-0-14-143951-8",
+    "isbn": "978-0-14-143951-8",
+    "title": "Pride and Prejudice",
+    "star_rating": 4.6,
+    "authors": [
+      { "authorId": "auth_004", "name": "Jane Austen", "birth_year": "1775" }
+    ],
+    "genres": [
+      { "genreId": "genre_001", "name": "Literary Fiction", "description": "Character-driven novels exploring the human condition" },
+      { "genreId": "genre_002", "name": "Classics", "description": "Enduring works of lasting literary merit" },
+      { "genreId": "genre_005", "name": "Romance", "description": "Stories centered on romantic relationships" }
+    ]
+  },
+  {
+    "_id": "978-0-316-76948-0",
+    "isbn": "978-0-316-76948-0",
+    "title": "The Catcher in the Rye",
+    "star_rating": 4.0,
+    "authors": [
+      { "authorId": "auth_005", "name": "J.D. Salinger", "birth_year": "1919" }
+    ],
+    "genres": [
+      { "genreId": "genre_001", "name": "Literary Fiction", "description": "Character-driven novels exploring the human condition" },
+      { "genreId": "genre_002", "name": "Classics", "description": "Enduring works of lasting literary merit" }
+    ]
+  },
+  {
+    "_id": "978-1-4000-3341-6",
+    "isbn": "978-1-4000-3341-6",
+    "title": "Beloved",
+    "star_rating": 4.3,
+    "authors": [
+      { "authorId": "auth_006", "name": "Toni Morrison", "birth_year": "1931" }
+    ],
+    "genres": [
+      { "genreId": "genre_001", "name": "Literary Fiction", "description": "Character-driven novels exploring the human condition" },
+      { "genreId": "genre_006", "name": "Historical Fiction", "description": "Fiction set in a past historical period" }
+    ]
+  },
+  {
+    "_id": "978-0-547-92822-7",
+    "isbn": "978-0-547-92822-7",
+    "title": "The Hobbit",
+    "star_rating": 4.7,
+    "authors": [
+      { "authorId": "auth_007", "name": "J.R.R. Tolkien", "birth_year": "1892" }
+    ],
+    "genres": [
+      { "genreId": "genre_007", "name": "Fantasy", "description": "Fiction involving magical or supernatural elements" }
+    ]
+  },
+  {
+    "_id": "978-0-441-17271-9",
+    "isbn": "978-0-441-17271-9",
+    "title": "Dune",
+    "star_rating": 4.6,
+    "authors": [
+      { "authorId": "auth_008", "name": "Frank Herbert", "birth_year": "1920" }
+    ],
+    "genres": [
+      { "genreId": "genre_004", "name": "Science Fiction", "description": "Speculative fiction exploring futuristic concepts" }
+    ]
+  },
+  {
+    "_id": "978-0-06-085052-4",
+    "isbn": "978-0-06-085052-4",
+    "title": "Brave New World",
+    "star_rating": 4.3,
+    "authors": [
+      { "authorId": "auth_009", "name": "Aldous Huxley", "birth_year": "1894" }
+    ],
+    "genres": [
+      { "genreId": "genre_003", "name": "Dystopian", "description": "Fiction set in oppressive or degraded societies" },
+      { "genreId": "genre_004", "name": "Science Fiction", "description": "Speculative fiction exploring futuristic concepts" }
+    ]
+  },
+  {
+    "_id": "978-0-307-38789-9",
+    "isbn": "978-0-307-38789-9",
+    "title": "The Road",
+    "star_rating": 4.1,
+    "authors": [
+      { "authorId": "auth_010", "name": "Cormac McCarthy", "birth_year": "1933" }
+    ],
+    "genres": [
+      { "genreId": "genre_001", "name": "Literary Fiction", "description": "Character-driven novels exploring the human condition" },
+      { "genreId": "genre_003", "name": "Dystopian", "description": "Fiction set in oppressive or degraded societies" }
+    ]
+  },
+  {
+    "_id": "978-0-399-59017-4",
+    "isbn": "978-0-399-59017-4",
+    "title": "Educated",
+    "star_rating": 4.7,
+    "authors": [
+      { "authorId": "auth_011", "name": "Tara Westover", "birth_year": "1986" }
+    ],
+    "genres": [
+      { "genreId": "genre_008", "name": "Memoir", "description": "Nonfiction personal accounts of lived experience" }
+    ]
+  },
+  {
+    "_id": "978-0-06-231609-7",
+    "isbn": "978-0-06-231609-7",
+    "title": "Sapiens",
+    "star_rating": 4.4,
+    "authors": [
+      { "authorId": "auth_012", "name": "Yuval Noah Harari", "birth_year": "1976" }
+    ],
+    "genres": [
+      { "genreId": "genre_009", "name": "Non-Fiction", "description": "Works based on real events, people, and facts" }
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "_id": "user_001",
+    "userId": "user_001",
+    "name": "Alice Chen",
+    "email": "alice.chen@email.com",
+    "joinedAt": "2025-09-15T10:30:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_001",
+        "isbn": "978-0-06-112008-4",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "LIKENEW"
+      },
+      {
+        "userBookId": "ub_002",
+        "isbn": "978-0-7432-7356-5",
+        "visibilityPublic": true,
+        "status": "LOANED",
+        "condition": "GOOD"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_001",
+        "circleId": "circle_001",
+        "permissionLevel": "admin",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-09-15T10:30:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_002",
+    "userId": "user_002",
+    "name": "Marcus Rivera",
+    "email": "marcus.r@email.com",
+    "joinedAt": "2025-10-02T14:15:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_003",
+        "isbn": "978-0-451-52493-5",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "GOOD"
+      },
+      {
+        "userBookId": "ub_004",
+        "isbn": "978-0-14-143951-8",
+        "visibilityPublic": true,
+        "status": "LOANED",
+        "condition": "FAIR"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_002",
+        "circleId": "circle_001",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-10-05T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_003",
+        "circleId": "circle_002",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-01T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_003",
+    "userId": "user_003",
+    "name": "Priya Patel",
+    "email": "priya.patel@email.com",
+    "joinedAt": "2025-09-20T11:00:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_005",
+        "isbn": "978-0-316-76948-0",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "GOOD"
+      },
+      {
+        "userBookId": "ub_006",
+        "isbn": "978-1-4000-3341-6",
+        "visibilityPublic": false,
+        "status": "AVAILABLE",
+        "condition": "LIKENEW"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_004",
+        "circleId": "circle_001",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-09-22T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_005",
+        "circleId": "circle_003",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": false,
+        "joinedAt": "2025-12-01T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_004",
+    "userId": "user_004",
+    "name": "Jordan Kim",
+    "email": "jordan.kim@email.com",
+    "joinedAt": "2025-10-10T16:45:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_007",
+        "isbn": "978-0-547-92822-7",
+        "visibilityPublic": true,
+        "status": "LOANED",
+        "condition": "GOOD"
+      },
+      {
+        "userBookId": "ub_008",
+        "isbn": "978-0-441-17271-9",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "LIKENEW"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_006",
+        "circleId": "circle_001",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-10-12T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_007",
+        "circleId": "circle_003",
+        "permissionLevel": "admin",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-15T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_005",
+    "userId": "user_005",
+    "name": "Sofia Nguyen",
+    "email": "sofia.nguyen@email.com",
+    "joinedAt": "2025-10-18T09:30:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_009",
+        "isbn": "978-0-06-085052-4",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "BEATEN"
+      },
+      {
+        "userBookId": "ub_010",
+        "isbn": "978-0-307-38789-9",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "FAIR"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_008",
+        "circleId": "circle_001",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-10-20T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_009",
+        "circleId": "circle_003",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-12-05T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_006",
+    "userId": "user_006",
+    "name": "David Park",
+    "email": "david.park@email.com",
+    "joinedAt": "2025-11-01T13:00:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_011",
+        "isbn": "978-0-399-59017-4",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "LIKENEW"
+      },
+      {
+        "userBookId": "ub_012",
+        "isbn": "978-0-06-231609-7",
+        "visibilityPublic": true,
+        "status": "LOANED",
+        "condition": "GOOD"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_010",
+        "circleId": "circle_002",
+        "permissionLevel": "admin",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-01T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_007",
+    "userId": "user_007",
+    "name": "Emma Thompson",
+    "email": "emma.t@email.com",
+    "joinedAt": "2025-11-10T10:00:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_013",
+        "isbn": "978-0-06-112008-4",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "FAIR"
+      },
+      {
+        "userBookId": "ub_014",
+        "isbn": "978-0-547-92822-7",
+        "visibilityPublic": false,
+        "status": "AVAILABLE",
+        "condition": "GOOD"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_011",
+        "circleId": "circle_002",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-12T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "user_008",
+    "userId": "user_008",
+    "name": "Liam O'Brien",
+    "email": "liam.obrien@email.com",
+    "joinedAt": "2025-11-20T15:30:00Z",
+    "ownedBooks": [
+      {
+        "userBookId": "ub_015",
+        "isbn": "978-0-441-17271-9",
+        "visibilityPublic": true,
+        "status": "AVAILABLE",
+        "condition": "GOOD"
+      },
+      {
+        "userBookId": "ub_016",
+        "isbn": "978-0-451-52493-5",
+        "visibilityPublic": true,
+        "status": "REQUESTED",
+        "condition": "LIKENEW"
+      }
+    ],
+    "memberships": [
+      {
+        "membershipId": "mem_012",
+        "circleId": "circle_002",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-22T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_013",
+        "circleId": "circle_003",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-12-10T09:00:00Z"
+      }
+    ]
+  }
+]

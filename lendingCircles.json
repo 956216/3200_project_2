@@ -1,0 +1,146 @@
+[
+  {
+    "_id": "circle_001",
+    "circleId": "circle_001",
+    "name": "Bay Area Bookworms",
+    "createdAtDate": "2025-09-10T12:00:00Z",
+    "description": "A lending circle for book lovers in the SF Bay Area",
+    "members": [
+      {
+        "membershipId": "mem_001",
+        "userId": "user_001",
+        "name": "Alice Chen",
+        "permissionLevel": "admin",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-09-15T10:30:00Z"
+      },
+      {
+        "membershipId": "mem_002",
+        "userId": "user_002",
+        "name": "Marcus Rivera",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-10-05T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_004",
+        "userId": "user_003",
+        "name": "Priya Patel",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-09-22T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_006",
+        "userId": "user_004",
+        "name": "Jordan Kim",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-10-12T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_008",
+        "userId": "user_005",
+        "name": "Sofia Nguyen",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-10-20T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "circle_002",
+    "circleId": "circle_002",
+    "name": "Campus Reads",
+    "createdAtDate": "2025-10-20T08:00:00Z",
+    "description": "Northeastern University student book-sharing group",
+    "members": [
+      {
+        "membershipId": "mem_010",
+        "userId": "user_006",
+        "name": "David Park",
+        "permissionLevel": "admin",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-01T13:00:00Z"
+      },
+      {
+        "membershipId": "mem_011",
+        "userId": "user_007",
+        "name": "Emma Thompson",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-12T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_012",
+        "userId": "user_008",
+        "name": "Liam O'Brien",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-22T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_003",
+        "userId": "user_002",
+        "name": "Marcus Rivera",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-01T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": "circle_003",
+    "circleId": "circle_003",
+    "name": "Sci-Fi Society",
+    "createdAtDate": "2025-11-15T14:00:00Z",
+    "description": "For fans of science fiction and speculative literature",
+    "members": [
+      {
+        "membershipId": "mem_007",
+        "userId": "user_004",
+        "name": "Jordan Kim",
+        "permissionLevel": "admin",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-11-15T12:00:00Z"
+      },
+      {
+        "membershipId": "mem_009",
+        "userId": "user_005",
+        "name": "Sofia Nguyen",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-12-05T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_013",
+        "userId": "user_008",
+        "name": "Liam O'Brien",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": true,
+        "joinedAt": "2025-12-10T09:00:00Z"
+      },
+      {
+        "membershipId": "mem_005",
+        "userId": "user_003",
+        "name": "Priya Patel",
+        "permissionLevel": "member",
+        "canBorrow": true,
+        "canLend": false,
+        "joinedAt": "2025-12-01T10:00:00Z"
+      }
+    ]
+  }
+]

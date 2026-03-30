@@ -1,0 +1,245 @@
+[
+  {
+    "_id": "loan_001",
+    "loanId": "loan_001",
+    "userBookId": "ub_002",
+    "loaneeId": "user_002",
+    "lenderId": "user_001",
+    "isbn": "978-0-7432-7356-5",
+    "dueDate": "2026-01-15",
+    "returnedAtDate": "2026-01-10",
+    "status": "RETURNED",
+    "conditionAtLend": "GOOD",
+    "conditionAtReturn": "GOOD",
+    "reviews": [
+      {
+        "reviewId": "rev_001",
+        "review_maker": "user_001",
+        "review_subject": "user_002",
+        "rating": 5,
+        "comment": "Returned on time and in great condition!",
+        "createdAtDate": "2026-01-11T09:00:00Z",
+        "type": "BORROWER"
+      },
+      {
+        "reviewId": "rev_002",
+        "review_maker": "user_002",
+        "review_subject": "user_001",
+        "rating": 5,
+        "comment": "Book was in perfect condition, great lender.",
+        "createdAtDate": "2026-01-11T10:00:00Z",
+        "type": "LENDER"
+      }
+    ],
+    "request": {
+      "requestId": "req_001",
+      "loanerId": "user_001",
+      "loaneeId": "user_002",
+      "requestedAtDate": "2025-12-20T14:00:00Z",
+      "status": "ACCEPTED",
+      "message": "Hey Alice, could I borrow The Great Gatsby for a few weeks?"
+    }
+  },
+  {
+    "_id": "loan_002",
+    "loanId": "loan_002",
+    "userBookId": "ub_007",
+    "loaneeId": "user_003",
+    "lenderId": "user_004",
+    "isbn": "978-0-547-92822-7",
+    "dueDate": "2026-03-01",
+    "returnedAtDate": null,
+    "status": "ACTIVE",
+    "conditionAtLend": "GOOD",
+    "conditionAtReturn": null,
+    "reviews": [],
+    "request": {
+      "requestId": "req_002",
+      "loanerId": "user_004",
+      "loaneeId": "user_003",
+      "requestedAtDate": "2026-02-01T11:00:00Z",
+      "status": "ACCEPTED",
+      "message": "Can I borrow The Hobbit? I've been wanting to read it!"
+    }
+  },
+  {
+    "_id": "loan_003",
+    "loanId": "loan_003",
+    "userBookId": "ub_004",
+    "loaneeId": "user_005",
+    "lenderId": "user_002",
+    "isbn": "978-0-14-143951-8",
+    "dueDate": "2026-02-28",
+    "returnedAtDate": null,
+    "status": "OVERDUE",
+    "conditionAtLend": "FAIR",
+    "conditionAtReturn": null,
+    "reviews": [],
+    "request": {
+      "requestId": "req_003",
+      "loanerId": "user_002",
+      "loaneeId": "user_005",
+      "requestedAtDate": "2026-01-10T16:00:00Z",
+      "status": "ACCEPTED",
+      "message": "Would love to borrow Pride and Prejudice!"
+    }
+  },
+  {
+    "_id": "loan_004",
+    "loanId": "loan_004",
+    "userBookId": "ub_012",
+    "loaneeId": "user_007",
+    "lenderId": "user_006",
+    "isbn": "978-0-06-231609-7",
+    "dueDate": "2026-04-01",
+    "returnedAtDate": null,
+    "status": "ACTIVE",
+    "conditionAtLend": "GOOD",
+    "conditionAtReturn": null,
+    "reviews": [],
+    "request": {
+      "requestId": "req_004",
+      "loanerId": "user_006",
+      "loaneeId": "user_007",
+      "requestedAtDate": "2026-02-15T10:00:00Z",
+      "status": "ACCEPTED",
+      "message": "Hi David, could I read Sapiens? Heard great things."
+    }
+  },
+  {
+    "_id": "loan_005",
+    "loanId": "loan_005",
+    "userBookId": "ub_001",
+    "loaneeId": "user_004",
+    "lenderId": "user_001",
+    "isbn": "978-0-06-112008-4",
+    "dueDate": "2025-12-20",
+    "returnedAtDate": "2025-12-18",
+    "status": "RETURNED",
+    "conditionAtLend": "LIKENEW",
+    "conditionAtReturn": "LIKENEW",
+    "reviews": [
+      {
+        "reviewId": "rev_003",
+        "review_maker": "user_001",
+        "review_subject": "user_004",
+        "rating": 4,
+        "comment": "Returned in good shape, a day early.",
+        "createdAtDate": "2025-12-19T08:00:00Z",
+        "type": "BORROWER"
+      },
+      {
+        "reviewId": "rev_004",
+        "review_maker": "user_004",
+        "review_subject": "user_001",
+        "rating": 5,
+        "comment": "Alice is a wonderful lender. Book was pristine.",
+        "createdAtDate": "2025-12-19T09:30:00Z",
+        "type": "LENDER"
+      }
+    ],
+    "request": {
+      "requestId": "req_005",
+      "loanerId": "user_001",
+      "loaneeId": "user_004",
+      "requestedAtDate": "2025-11-25T14:00:00Z",
+      "status": "ACCEPTED",
+      "message": "Hey, can I borrow Mockingbird for a couple weeks?"
+    }
+  },
+  {
+    "_id": "loan_006",
+    "loanId": "loan_006",
+    "userBookId": "ub_008",
+    "loaneeId": "user_008",
+    "lenderId": "user_004",
+    "isbn": "978-0-441-17271-9",
+    "dueDate": "2026-01-30",
+    "returnedAtDate": "2026-01-28",
+    "status": "RETURNED",
+    "conditionAtLend": "LIKENEW",
+    "conditionAtReturn": "GOOD",
+    "reviews": [
+      {
+        "reviewId": "rev_005",
+        "review_maker": "user_004",
+        "review_subject": "user_008",
+        "rating": 3,
+        "comment": "Book came back with a small crease on the cover.",
+        "createdAtDate": "2026-01-29T11:00:00Z",
+        "type": "BORROWER"
+      },
+      {
+        "reviewId": "rev_006",
+        "review_maker": "user_008",
+        "review_subject": "user_004",
+        "rating": 4,
+        "comment": "Good lender, quick to respond.",
+        "createdAtDate": "2026-01-29T12:00:00Z",
+        "type": "LENDER"
+      }
+    ],
+    "request": {
+      "requestId": "req_006",
+      "loanerId": "user_004",
+      "loaneeId": "user_008",
+      "requestedAtDate": "2025-12-28T09:00:00Z",
+      "status": "ACCEPTED",
+      "message": "I'd love to borrow Dune for the sci-fi club!"
+    }
+  },
+  {
+    "_id": "loan_007",
+    "loanId": "loan_007",
+    "userBookId": "ub_006",
+    "loaneeId": "user_001",
+    "lenderId": "user_003",
+    "isbn": "978-1-4000-3341-6",
+    "dueDate": "2026-02-15",
+    "returnedAtDate": "2026-02-14",
+    "status": "RETURNED",
+    "conditionAtLend": "LIKENEW",
+    "conditionAtReturn": "LIKENEW",
+    "reviews": [
+      {
+        "reviewId": "rev_007",
+        "review_maker": "user_003",
+        "review_subject": "user_001",
+        "rating": 5,
+        "comment": "Perfect borrower. Returned early and in perfect shape.",
+        "createdAtDate": "2026-02-15T08:00:00Z",
+        "type": "BORROWER"
+      }
+    ],
+    "request": {
+      "requestId": "req_007",
+      "loanerId": "user_003",
+      "loaneeId": "user_001",
+      "requestedAtDate": "2026-01-20T15:00:00Z",
+      "status": "ACCEPTED",
+      "message": "Hi Priya, I'd love to read Beloved if you're willing to lend it!"
+    }
+  },
+  {
+    "_id": "loan_008",
+    "loanId": "loan_008",
+    "userBookId": "ub_011",
+    "loaneeId": "user_002",
+    "lenderId": "user_006",
+    "isbn": "978-0-399-59017-4",
+    "dueDate": "2026-04-15",
+    "returnedAtDate": null,
+    "status": "ACTIVE",
+    "conditionAtLend": "LIKENEW",
+    "conditionAtReturn": null,
+    "reviews": [],
+    "request": {
+      "requestId": "req_008",
+      "loanerId": "user_006",
+      "loaneeId": "user_002",
+      "requestedAtDate": "2026-03-01T10:00:00Z",
+      "status": "ACCEPTED",
+      "message": "David, can I borrow Educated? Heard it's amazing."
+    }
+  }
+]
