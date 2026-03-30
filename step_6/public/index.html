@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Website</title>
-</head>
-<body>
-    <script src="main.js"></script>
-</body>
-</html>
+<button onclick="fetch('/addUser', {method:'POST'})">Add User</button>
+<button onclick="fetch('/getUsers').then(r=>r.text()).then(alert)">Get Users</button>
+<button onclick="fetch('/updateUser', {method:'POST'})">Update User</button>
+<button onclick="fetch('/deleteUser', {method:'POST'})">Delete User</button>
+<br><br>
+<button onclick="fetch('/addBook', {method:'POST'})">Add Book</button>
+<button onclick="fetch('/getBooks').then(r=>r.text()).then(alert)">Get Books</button>
+<button onclick="fetch('/updateBook', {method:'POST'})">Update Book</button>
+<button onclick="fetch('/deleteBook', {method:'POST'})">Delete Book</button>
+<br><br>
+<button onclick="fetch('/getAggregation').then(r=>r.text()).then(alert)">Run Aggregation (Loan Statuses)</button>
